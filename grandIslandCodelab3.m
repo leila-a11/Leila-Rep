@@ -1,0 +1,10 @@
+xCoordinates = 1:1:24;
+temperatures = [63 60 58 58 60 60 60 64 68 72 76 77 79 83 82 83 83 82 79 77 71 66 63 62];
+figure;
+subplot(2,1,1);
+plot(xCoordinates, temperatures, 'o', 'MarkerSize', 3, 'MarkerFaceColor', [0 0 1]);
+xlim([1 24]);
+ylim([50 100]);
+xlabel('Time (24 hours)');
+ylabel('Temperature (F)');
+title("Temperature in Grand Island on June 23, 2020");
